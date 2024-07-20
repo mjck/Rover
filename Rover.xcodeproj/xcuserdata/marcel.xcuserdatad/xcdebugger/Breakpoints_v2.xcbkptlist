@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "A9901B98-D92B-4B05-BBA3-241786B7AE38"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4DEADCD7-B749-499D-9DB2-A6554590AA56"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Rover/Rover.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "init()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4DEADCD7-B749-499D-9DB2-A6554590AA56 - 8ae1720f6e17ceba"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Rover.Rover.() -&gt; Rover.Rover.init() -&gt; Rover.Rover"
+                  moduleName = "Rover"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marcel/Rover/Rover/Rover.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "138">
+               </Location>
+               <Location
+                  uuid = "4DEADCD7-B749-499D-9DB2-A6554590AA56 - 8ae1720f6e17ceba"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Rover.Rover.() -&gt; Rover.Rover.init() -&gt; Rover.Rover"
+                  moduleName = "Rover"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marcel/Rover/Rover/Rover.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "196">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

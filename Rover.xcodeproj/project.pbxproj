@@ -11,6 +11,13 @@
 		1FA659152C4AC91800CD4450 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA659142C4AC91800CD4450 /* ContentView.swift */; };
 		1FA659172C4AC91B00CD4450 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FA659162C4AC91B00CD4450 /* Assets.xcassets */; };
 		1FA6591A2C4AC91B00CD4450 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FA659192C4AC91B00CD4450 /* Preview Assets.xcassets */; };
+		1FA659212C4ACF9E00CD4450 /* Rover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA659202C4ACF9E00CD4450 /* Rover.swift */; };
+		1FA659232C4AFD6800CD4450 /* RoverStateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA659222C4AFD6800CD4450 /* RoverStateModel.swift */; };
+		1FA659272C4BF00400CD4450 /* AnglesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA659262C4BF00400CD4450 /* AnglesView.swift */; };
+		1FA659292C4BF17B00CD4450 /* VoltageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA659282C4BF17B00CD4450 /* VoltageView.swift */; };
+		1FA6592B2C4BF1D900CD4450 /* AccelerometerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA6592A2C4BF1D900CD4450 /* AccelerometerView.swift */; };
+		1FA6592D2C4BF6D100CD4450 /* GyroscopeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA6592C2C4BF6D100CD4450 /* GyroscopeView.swift */; };
+		1FA6592F2C4BF80600CD4450 /* MagnetometerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA6592E2C4BF80600CD4450 /* MagnetometerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,13 @@
 		1FA659142C4AC91800CD4450 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1FA659162C4AC91B00CD4450 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FA659192C4AC91B00CD4450 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1FA659202C4ACF9E00CD4450 /* Rover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rover.swift; sourceTree = "<group>"; };
+		1FA659222C4AFD6800CD4450 /* RoverStateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoverStateModel.swift; sourceTree = "<group>"; };
+		1FA659262C4BF00400CD4450 /* AnglesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnglesView.swift; sourceTree = "<group>"; };
+		1FA659282C4BF17B00CD4450 /* VoltageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoltageView.swift; sourceTree = "<group>"; };
+		1FA6592A2C4BF1D900CD4450 /* AccelerometerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccelerometerView.swift; sourceTree = "<group>"; };
+		1FA6592C2C4BF6D100CD4450 /* GyroscopeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GyroscopeView.swift; sourceTree = "<group>"; };
+		1FA6592E2C4BF80600CD4450 /* MagnetometerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnetometerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +65,15 @@
 		1FA659112C4AC91800CD4450 /* Rover */ = {
 			isa = PBXGroup;
 			children = (
+				1FA659202C4ACF9E00CD4450 /* Rover.swift */,
 				1FA659122C4AC91800CD4450 /* RoverApp.swift */,
 				1FA659142C4AC91800CD4450 /* ContentView.swift */,
+				1FA659262C4BF00400CD4450 /* AnglesView.swift */,
+				1FA659282C4BF17B00CD4450 /* VoltageView.swift */,
+				1FA6592C2C4BF6D100CD4450 /* GyroscopeView.swift */,
+				1FA6592A2C4BF1D900CD4450 /* AccelerometerView.swift */,
+				1FA6592E2C4BF80600CD4450 /* MagnetometerView.swift */,
+				1FA659222C4AFD6800CD4450 /* RoverStateModel.swift */,
 				1FA659162C4AC91B00CD4450 /* Assets.xcassets */,
 				1FA659182C4AC91B00CD4450 /* Preview Content */,
 			);
@@ -137,8 +158,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FA6592F2C4BF80600CD4450 /* MagnetometerView.swift in Sources */,
+				1FA6592B2C4BF1D900CD4450 /* AccelerometerView.swift in Sources */,
+				1FA659232C4AFD6800CD4450 /* RoverStateModel.swift in Sources */,
+				1FA659272C4BF00400CD4450 /* AnglesView.swift in Sources */,
 				1FA659152C4AC91800CD4450 /* ContentView.swift in Sources */,
+				1FA6592D2C4BF6D100CD4450 /* GyroscopeView.swift in Sources */,
+				1FA659292C4BF17B00CD4450 /* VoltageView.swift in Sources */,
 				1FA659132C4AC91800CD4450 /* RoverApp.swift in Sources */,
+				1FA659212C4ACF9E00CD4450 /* Rover.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

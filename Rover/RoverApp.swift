@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct RoverApp: App {
+    @StateObject private var roverStateModel = RoverStateModel()
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(roverStateModel)
         }
     }
 }
