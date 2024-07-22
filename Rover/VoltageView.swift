@@ -13,7 +13,7 @@ struct VoltageView: View {
         HStack {
             VStack {
                 Text("\(roverStateModel.voltage, specifier: "%5.2f")")
-                    .font(.title2)
+                font(.system(size: 19))
                 Text("Voltage")
                     .font(.caption)
             }

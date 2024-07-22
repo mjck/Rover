@@ -10,17 +10,17 @@ import SwiftUI
 struct MagnetometerView: View {
     @EnvironmentObject var roverStateModel: RoverStateModel
     var body: some View {
-        HStack {
-            Text("Magnetometer")
-                .font(.system(size: 15))
-                .frame(alignment: .trailing)
+        //HStack {
+            Text("Mgn")
+                .font(.system(size: 14))
+                //.frame(alignment: .trailing)
             VStack {
                 Text("\(roverStateModel.mgn.x, specifier: "%3d")")
                     .font(.system(size: 18))
                 Text("X")
                     .font(.caption)
             }
-            .frame(width: 70)
+            //.frame(width: 70)
             .padding(.horizontal, 10)
             VStack {
                 Text("\(roverStateModel.mgn.y, specifier: "%3d")")
@@ -28,7 +28,7 @@ struct MagnetometerView: View {
                 Text("Y")
                     .font(.caption)
             }
-            .frame(width: 70)
+            //.frame(width: 70)
             .padding(.horizontal, 10)
             VStack {
                 Text("\(roverStateModel.mgn.z, specifier: "%3d")")
@@ -36,11 +36,11 @@ struct MagnetometerView: View {
                 Text("Z")
                     .font(.caption)
             }
-            .frame(width: 70)
+            //.frame(width: 70)
             .padding(.horizontal, 10)
         }
         //.padding(.vertical, 20)
-    }
+    //}
 }
 
 //#Preview {

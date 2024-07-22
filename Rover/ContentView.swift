@@ -22,28 +22,40 @@ struct ContentView: View {
         ZStack {
             Color.black
             VStack {
-                Text("Rover Dashboard")
-                    .font(.title)
+                Text("Rover IMU")
+                    .font(.title2)
                     .colorInvert()
-                    .padding()
-                VoltageView()
-                    .colorInvert()
-                    .padding()
-                AnglesView()
-                    .colorInvert()
-                    .padding()
-                AccelerometerView()
-                    .colorInvert()
-                    .padding()
-                GyroscopeView()
-                    .colorInvert()
-                    .padding()
-                MagnetometerView()
-                    .colorInvert()
-                    .padding()
+                    .padding(.vertical, 5)
+                    //.padding()
+                Grid(verticalSpacing: 10) {
+//                    GridRow {
+//                        VoltageView()
+//                            .colorInvert()
+//                    }
+                    GridRow {
+                        AnglesView()
+                            .colorInvert()
+                    }
+                    .padding(.vertical, 10)
+                    GridRow {
+                        AccelerometerView()
+                            .colorInvert()
+                    }
+                    //.padding()
+                    GridRow {
+                        GyroscopeView()
+                            .colorInvert()
+                    }
+                    //.padding()
+                    GridRow {
+                        MagnetometerView()
+                            .colorInvert()
+                    }
+                    //.padding()
+                }
                 HStack {
                     Button("Start") {
-                        timer = Timer.publish(every: 0.25, tolerance: 0.01, on: .main, in: .common)//.autoconnect()
+                        timer = Timer.publish(every: 0.075, tolerance: 0.001, on: .main, in: .common)//.autoconnect()
                         timerHandler = timer.connect()
                     }
                     .padding()
